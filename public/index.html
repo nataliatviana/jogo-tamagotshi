@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Tamagotchi Pixel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🐾 Tamagotchi Virtual</h1>
+  <div class="tamagotchi">
+    <img id="pet" src="assets/TamagotchiPixelArt.png" alt="bichinho">
+    <img id="roupa" src="assets/TamagotchiP&B.png" alt="roupa">
+  </div>
+
+  <div class="status">
+    <p>Fome: <span id="fome">50</span></p>
+    <p>Felicidade: <span id="felicidade">50</span></p>
+  </div>
+
+  <div class="botoes">
+    <button onclick="alimentar()">🍎 Alimentar</button>
+    <button onclick="darCarinho()">💖 Carinho</button>
+    <button onclick="trocarRoupa()">👕 Roupa</button>
+    <button onclick="passear()">🐾 Passear</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

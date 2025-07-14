@@ -1,0 +1,30 @@
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.tamagotchi {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+.tamagotchi img {
+  width: 128px;
+  image-rendering: pixelated;
+}
+
+.status {
+  font-size: 20px;
+  margin: 15px;
+}
+
+.botoes button {
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
